@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config({ override: true });
 const User = require('../models/User');
 
-const SUPER_ADMIN_EMAIL = 'newsprecent57@gmail.com';
+const SUPER_ADMIN_EMAIL = 'karthikchaitanya.d@gmail.com';
 
 const demoteExtraSuperAdmins = async () => {
     try {

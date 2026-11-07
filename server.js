@@ -384,7 +384,7 @@ app.get('/api/health', (req, res) => {
 });
 
 // --- SUPER ADMIN INITIALIZATION ---
-const SUPER_ADMIN_EMAIL = 'newsprecent57@gmail.com';
+const SUPER_ADMIN_EMAIL = 'karthikchaitanya.d@gmail.com';
 const initializeSuperAdmin = async () => {
     try {
         const superAdminExists = await User.findOne({ email: SUPER_ADMIN_EMAIL });
